@@ -1,0 +1,21 @@
+{
+  "project_name": "KabaarAgent",
+  "version": "2.0.0",
+  "pipeline_flow": [
+    "App Input Stream",
+    "Appraiser Identification",
+    "Arbitrage Index Matcher",
+    "Operations Ledger Commit",
+    "Frontend View Update"
+  ],
+  "directories": {
+    "appraiser": "backend/appraiser",
+    "arbitrage": "backend/arbitrage",
+    "operations": "backend/ops",
+    "frontend": "android"
+  },
+  "log_stream": {
+    "output_path": "backend/ops/payout_ledger.json",
+    "trace_log_path": "backend/execution_trace.log"
+  }
+}

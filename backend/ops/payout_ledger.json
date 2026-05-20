@@ -1,0 +1,74 @@
+[
+  {
+    "transaction_id": "777eeae6-fef5-4b72-aed3-1c268e2cbf02",
+    "timestamp": "2026-05-20T23:03:17.770730Z",
+    "items": [
+      {
+        "material_type": "Copper",
+        "estimated_weight_kg": 11.0,
+        "purity_grade": "Medium"
+      },
+      {
+        "material_type": "Iron",
+        "estimated_weight_kg": 10.0,
+        "purity_grade": "Low"
+      }
+    ],
+    "total_valuation": 22365.0,
+    "optimal_yard": {
+      "name": "Rawalpindi Industrial Recycling Hub",
+      "location": "I-9 Industrial Area",
+      "distance_km": 4.918593536215939,
+      "payout_premium": 0.05,
+      "total_payout_pkr": 22365.0,
+      "itemized_valuation": {
+        "Copper": {
+          "weight_kg": 11.0,
+          "base_rate": 1800.0,
+          "effective_rate": 1890.0,
+          "payout": 20790.0
+        },
+        "Iron": {
+          "weight_kg": 10.0,
+          "base_rate": 150.0,
+          "effective_rate": 157.5,
+          "payout": 1575.0
+        }
+      }
+    },
+    "digital_signature": "sig_v2_0ce21e8f9cd7215a7754cfa990e2cff1",
+    "receipt": {
+      "logistics_details": {
+        "carrier": "KabaarAgent Fleet Dispatch",
+        "service_tier": "Standard Commercial Scrap Pickup",
+        "pickup_status": "SCHEDULED",
+        "destination_yard": "Rawalpindi Industrial Recycling Hub",
+        "destination_address": "I-9 Industrial Area"
+      },
+      "scheduling": {
+        "booking_time": "2026-05-20T23:03:17.767376Z",
+        "estimated_pickup_window": "2026-05-22 09:00 AM - 12:00 PM",
+        "dispatch_notes": "Please keep the scrap materials segregated by metal/material type for verification upon pickup."
+      },
+      "transaction_summary": {
+        "transaction_id": "777eeae6-fef5-4b72-aed3-1c268e2cbf02",
+        "valuation_pkr": 22365.0,
+        "currency": "PKR",
+        "item_count": 2,
+        "items": [
+          {
+            "material_type": "Copper",
+            "estimated_weight_kg": 11.0,
+            "purity_grade": "Medium"
+          },
+          {
+            "material_type": "Iron",
+            "estimated_weight_kg": 10.0,
+            "purity_grade": "Low"
+          }
+        ],
+        "digital_signature": "sig_v2_0ce21e8f9cd7215a7754cfa990e2cff1"
+      }
+    }
+  }
+]

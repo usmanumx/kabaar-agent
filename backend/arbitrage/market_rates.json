@@ -1,0 +1,33 @@
+{
+  "currency": "PKR",
+  "base_rates": {
+    "Copper": 1800.0,
+    "Iron": 150.0,
+    "Aluminum": 400.0,
+    "Cardboard": 35.0
+  },
+  "recycling_yards": [
+    {
+      "name": "Rawalpindi Industrial Recycling Hub",
+      "location": "I-9 Industrial Area",
+      "coordinates": {
+        "latitude": 33.6421,
+        "longitude": 73.0763
+      },
+      "buys": ["Iron", "Copper"],
+      "min_batch_kg": 10.0,
+      "payout_premium": 0.05
+    },
+    {
+      "name": "Saddar Scrap Foundry",
+      "location": "Saddar",
+      "coordinates": {
+        "latitude": 33.5984,
+        "longitude": 73.0542
+      },
+      "buys": ["Iron", "Copper", "Aluminum", "Cardboard"],
+      "min_batch_kg": 1.0,
+      "payout_premium": 0.00
+    }
+  ]
+}

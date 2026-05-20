@@ -1,0 +1,25 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+backend/execution_trace.log
+
+# Android / Gradle
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+.DS_Store
+.cxx/
+*.apk
+*.aar
+capture_logs/
+.gradle-configuration-cache/
