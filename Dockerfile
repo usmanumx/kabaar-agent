@@ -13,5 +13,5 @@ COPY antigravity.json .
 # Expose FastAPI port
 EXPOSE 8000
 
-# Run uvicorn server
-CMD ["uvicorn", "backend.server:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run uvicorn server with dynamic port support
+CMD ["sh", "-c", "uvicorn backend.server:app --host 0.0.0.0 --port ${PORT:-8000}"]
