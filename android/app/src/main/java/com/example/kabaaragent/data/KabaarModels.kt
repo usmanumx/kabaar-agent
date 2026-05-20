@@ -43,7 +43,7 @@ interface KabaarApiService {
 }
 
 object KabaarApiClient {
-    private const val BASE_URL = "http://10.0.2.2:8000/"
+    private const val BASE_URL = "https://kabaar-agent-production.up.railway.app/"
 
     private val json = Json {
         ignoreUnknownKeys = true

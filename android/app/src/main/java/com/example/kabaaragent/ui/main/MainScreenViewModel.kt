@@ -63,7 +63,7 @@ class MainScreenViewModel(private val dataRepository: DataRepository) : ViewMode
                 response = null,
                 terminalLogs = listOf(
                     "UI: Initiating transaction appraisal pipeline...",
-                    "UI: Connecting to backend server at http://10.0.2.2:8000...",
+                    "UI: Connecting to backend server at https://kabaar-agent-production.up.railway.app...",
                     "UI: Sending payload: description='$description'"
                 )
             )
